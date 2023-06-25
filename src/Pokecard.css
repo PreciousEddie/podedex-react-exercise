@@ -1,0 +1,23 @@
+.Pokecard {
+  border: 5px solid #3d7dca;
+  border-radius: 10px;
+  background-color: #ffcb05;
+  flex: 1 0 21%;
+  margin: 5px;
+  text-align: center;
+}
+
+.Pokecard h4 {
+  color: red;
+  font-size: 30px;
+}
+.Pokecard p {
+  color: white;
+  font-weight: bold;
+}
+
+.Pokecard-image {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
