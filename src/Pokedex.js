@@ -6,7 +6,7 @@ const Pokedex = ({ pokemons }) => {
     return (
         <>
             { pokemons.map(p => (
-                <Pokecard name={ p.name } img={ p.img } type={ p.type } base_experience={ p.base_experience } />
+                <Pokecard key={ p.id } name={ p.name } img={ p.img } type={ p.type } base_experience={ p.base_experience } />
             )) }
         </>
     )
